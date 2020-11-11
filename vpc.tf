@@ -2,7 +2,7 @@ module "network" {
   source  = "app.terraform.io/skm050-training/network/google"
   version = "2.5.0"
   # insert required variables here
-  network_name = "skm050 network"
+  network_name = "skm050-network"
   project_id = var.project
     subnets = [
     {
